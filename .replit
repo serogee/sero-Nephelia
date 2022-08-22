@@ -80,7 +80,7 @@ support = true
 # Configures the packager.
 [packager]
 language = "python3"
-ignoredPackages = ["unit_tests"]
+ignoredPackages = ["unit_tests", "discord", "discord.ext", "commands". "discord.ext.commands"]
 
   [packager.features]
   enabledForHosting = false
