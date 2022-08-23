@@ -4,7 +4,7 @@ from typing import Union
 
 class Flags(tuple):
 
-    def __new__(cls, flags_list, flags_raw) -> Flags:
+    def __new__(cls, flags_list, flags_raw):
         return super(Flags, cls).__new__(cls, tuple(flags_list))
 
     def __init__(self, flags_list, flags_raw) -> None:
